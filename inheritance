@@ -7,5 +7,5 @@ class Parentclass:
 
 class Childclass(Parentclass):
     pass
-p1 = Childclass("KAVEESH","GURUDU")
+p1 = Childclass("THE","MAIN")
 p1.printingmanually()
