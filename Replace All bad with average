@@ -1,0 +1,20 @@
+reviews = ["good", "bad", "excellent", "bad", "average"]
+reviews_newlist = []
+for i in range(len(reviews)):
+    if reviews[i] == "bad":
+        reviews_newlist.append("average")
+    else:
+        reviews_newlist.append(reviews[i])
+
+print(reviews)
+print(reviews_newlist)
+
+##Also you can try this one
+
+##reviews = ["good", "bad", "excellent", "bad", "average"]
+
+##for i in range(len(reviews)):
+  ##  if reviews[i] == "bad":
+    ##    reviews[i] = "average"
+
+##print(reviews)

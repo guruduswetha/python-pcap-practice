@@ -1,0 +1,13 @@
+thisdict = {"car": "Ford", "model" : "HHI9990", "colour": "Red"}
+
+if  "car" in thisdict:
+        print("Yes it is")
+else:
+        print("Not it is not")
+
+thisdict.update({"car" : "Toyota"})
+print(thisdict)
+for key, value in thisdict.items():
+  print(key, "=", value)
+for x, y in thisdict.items():
+      print(x,y)

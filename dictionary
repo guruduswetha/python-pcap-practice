@@ -1,0 +1,7 @@
+thisdictionary = {"carname": "Toyota", "carnumber": "TX8123", "carmodel": "TXNBB"}
+
+thisdictionary["carmodel"] = "TTXMV"
+thisdictionary["colour"] = "red"
+
+x = thisdictionary.items
+print(thisdictionary)

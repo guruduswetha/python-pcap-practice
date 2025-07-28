@@ -1,0 +1,8 @@
+class Student:
+    def __init__ (myway, name, grade):
+        myway.name = name
+        myway.grade = grade
+    def __str__ (thisway):
+        return f"Student: {thisway.name}, Grade: {thisway.grade}"
+St1 = Student("Kaveesh", 2)
+print(St1)

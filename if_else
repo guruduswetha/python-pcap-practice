@@ -1,0 +1,8 @@
+a = 100
+b = 200
+if a > b :
+    print("not correct")
+elif a==b:
+    print("not correct")
+elif a<b:
+    print("correct")

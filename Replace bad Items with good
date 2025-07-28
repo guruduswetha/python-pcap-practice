@@ -1,0 +1,21 @@
+
+feedback_original_list = ["good", "average", "bad", "excellent", "bad"]
+print('Original_list:', feedback_original_list )
+
+for i in range(len(feedback_original_list)):
+   if feedback_original_list[i] == "bad":
+      feedback_original_list[i] = "good"
+
+print("Updated list: ",feedback_original_list)
+   
+
+
+
+##print('Original_list:', feedback_original_list )
+
+   ##list_A = [100, 'aa', 89, 'foo']
+##print('Original list: ', list_A)
+
+# Update value of 3rd element in list
+##list_A[2] = 21
+##print("Updated list: ",list_A)

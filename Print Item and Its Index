@@ -1,0 +1,5 @@
+Fruits = ["apple", "banana", "kiwi", "orange"]
+
+for i in range (len(Fruits)):
+
+    print(f"Index{i}: {Fruits[i]}")

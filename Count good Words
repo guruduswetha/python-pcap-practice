@@ -1,0 +1,13 @@
+feedback_original_list = ["good","bad", "good", "average", "good", "excellent", "bad"]
+
+count = 0
+
+for i in range (len(feedback_original_list)):
+    if feedback_original_list[i] == "good":
+        count = count +1
+print(count)
+
+   
+
+
+ 

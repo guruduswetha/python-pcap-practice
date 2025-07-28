@@ -1,0 +1,10 @@
+Original_list = ["apple", "mango","pear"]
+
+copy_of_original_list_1 = Original_list.copy()
+
+copy_of_original_list_2 = list(Original_list)
+
+copy_of_original_list_1.append("orange")
+
+print("Copy using .copy():", copy_of_original_list_1)
+print("Copy using list():", copy_of_original_list_2)

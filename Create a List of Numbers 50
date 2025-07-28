@@ -1,0 +1,7 @@
+numbers = [10, 55, 43, 78, 34, 99, 50]
+newlist_numbers = []
+
+for j in range (len(numbers)):
+    if numbers[j] > 50:
+        newlist_numbers.append(numbers[j])
+print(newlist_numbers)
