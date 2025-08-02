@@ -1,0 +1,28 @@
+class Employee():
+    def __init__(self, name, id):
+        self.name = name
+        self.id = id
+    
+    def details(self):
+        print(f"EMPLOYEE NAME: {self.name}, ID: {self.id}")
+            
+class Manager(Employee):
+    def __init__(self, name, id):
+        super().__init__(name, id)
+    def display_team(self):
+        print("2nd Class")
+
+    def details():
+        print("Sub Class")
+class Developer(Employee):
+    def details(self):
+        print("sub sub class")
+
+em1 = Employee("Justin", "222000")
+ma1 = Manager("ED Sheeren", "222001")
+de1 = Developer("Anna Hathway", "222002")
+
+for x in (em1, ma1, de1):
+    print(x.name)
+    print(x.id)
+    x.details

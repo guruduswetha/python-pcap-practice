@@ -1,0 +1,6 @@
+Chocolates = ["dutch", "vanilla", "alpenlible"]
+mychoco = iter(Chocolates)
+print(next(mychoco))
+print(next(mychoco))
+print(next(mychoco))
+

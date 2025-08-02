@@ -1,0 +1,3 @@
+Colours = "Blue"
+for x in Colours:
+    print(x)

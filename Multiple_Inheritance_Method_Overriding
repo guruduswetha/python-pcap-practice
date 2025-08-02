@@ -1,0 +1,18 @@
+class Father():
+    def skills(self):
+        print("FIRST CLASS")
+
+class Mother():
+    def skills(self):
+        print("SECOND CLASS")
+
+class child(Father, Mother):
+    def skills(self):
+        super().skills()
+        Mother.skills(self)
+        print("CHILD CLASS")
+    
+c1 = child()
+c1.skills()
+        
+

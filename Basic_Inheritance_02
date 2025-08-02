@@ -1,0 +1,18 @@
+class Vehicle ():
+    def __init__(self, brand, year):
+        self.brand =  brand
+        self.year = year
+       
+class Car(Vehicle):
+    def __init__(self, brand, year, model):
+        super().__init__(brand, year) ## we are passing "model" attribute thats why using __init__
+        self.model = model
+       ##But as soon as you need extra things like model, 
+       # #you need your own __init__ and you must call super().__init__() to set up the parent part
+car1 = Car("MERCEDES", "2027", "GLA 250")
+print(car1.brand)
+print(car1.year)
+print(car1.model)
+
+
+        
