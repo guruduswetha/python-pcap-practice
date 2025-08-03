@@ -1,8 +1,11 @@
 
 ## how many students?
 
+
 print("how many students are in the class?")
+
 number_of_students = input()
+
 print("the number of students are:", number_of_students)
 student_collections = []
 Counter = 0

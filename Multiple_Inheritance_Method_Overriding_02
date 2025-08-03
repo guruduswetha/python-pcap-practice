@@ -11,9 +11,10 @@ class Manager(Employee):
         super().__init__(name, id)
     def display_team(self):
         print("2nd Class")
-
+        
     def details():
         print("Sub Class")
+
 class Developer(Employee):
     def details(self):
         print("sub sub class")

@@ -7,4 +7,3 @@ class abcclass():
         return 1
 myobj = abcclass()
 print(bool(myobj))
-
