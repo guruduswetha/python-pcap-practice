@@ -1,0 +1,13 @@
+import json
+##json object##
+fruits_str = '{"apples":"red", "banana": "yellow", "watermelon" : "green", "kiwi":"brown"}'
+##now converting to python##
+a = json.loads(fruits_str)
+print(type(fruits_str))
+
+
+fruits_array = '[ "apples", "banana", "watermelon", "kiwi" ]'
+    
+b = json.loads(fruits_array)
+print(fruits_array, type(fruits_array))
+

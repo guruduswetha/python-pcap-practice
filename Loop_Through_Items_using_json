@@ -1,0 +1,19 @@
+import json
+pets_json = '''
+{
+"pets": [
+{"type": "dog", "name": "Bruno"},
+{"type": "cat", "name": "Luna"},
+{"type": "fish", "name": "Goldie"}
+    ]
+}
+'''
+
+pets_python = json.loads(pets_json)
+print(pets_python)
+
+pets_list = pets_python["pets"]
+
+for pet in pets_list:
+    print(pet["name"])
+

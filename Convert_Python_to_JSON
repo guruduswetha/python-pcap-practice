@@ -1,0 +1,10 @@
+import json
+universities = {"YIU": "JAPAN", "OXFORD": "AMERICA", "MU" : "INDIA"}
+print("This is Python dictionary", type(universities))
+
+print(universities)
+
+univ = json.dumps(universities)
+print("Converted to JSON str", type(univ))
+
+print(univ)
