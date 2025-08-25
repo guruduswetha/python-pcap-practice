@@ -1,0 +1,8 @@
+import json
+toys = {"car" : "hotwheels", "lego": "minecraft", "dolls" : "minie"}
+new_toys = json.dumps(toys)
+
+print(new_toys)
+toys_dict = json.loads(new_toys)
+print(toys_dict)
+print(toys_dict["lego"])

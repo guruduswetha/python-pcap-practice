@@ -1,0 +1,11 @@
+class myclass: ##myclass is a class name. it defines what myclass object should look like
+    def __init__(self, age, name, birthdate) ## def means you are defining your function telling python to how to define.__init__ is a special, “magic” method name that Python recognizes as the constructor
+        self.name = name
+        self.age = age
+        self.birthdate = birthyear     
+    def __str__(self):
+        return f"{self.name}, {(34)}, {self.birthyear}" 
+m1 = myclass("Swetha", 34, 5)
+print(m1)        
+    
+        

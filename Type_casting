@@ -1,0 +1,4 @@
+temp_c = input('Enter todays temperature in celsius = ')
+temp_g = float(temp_c) *1.8 + 32
+temp_user_statement = str(temp_c) + ' degree celsius equals ' + str(temp_g) + ' degree in Farheinhet.'
+print(temp_user_statement)

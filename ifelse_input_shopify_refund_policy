@@ -1,0 +1,9 @@
+purchased_days = int(input('How many days ago have you purchased the item?: '))
+used_items = input('Have you used the item at all [y/n]?: ')
+broken_items = input('Has the item broken down on its own [y/n]: ')
+
+if (purchased_days <= 10 and used_items == 'n') or (broken_items == 'y'):
+        print("You can get a refund.")
+else:
+        print("You cannot get a refund.")
+        

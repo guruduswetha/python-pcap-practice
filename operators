@@ -1,0 +1,11 @@
+income = 250_000
+lowtaxland_rate = 0.05
+ripoffland_rate = 0.43
+
+lowtaxland_tax = income * lowtaxland_rate
+ripoffland_tax = income * ripoffland_rate
+
+savings = ripoffland_tax - lowtaxland_tax
+
+
+print(f"Your income is {income} and you would pay {lowtaxland_tax} income tax in Lowtaxland or {ripoffland_tax} income tax in Ripoffland. You would save {savings} by paying taxes in Lowtaxland!")

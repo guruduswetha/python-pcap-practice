@@ -1,0 +1,5 @@
+daily_spendings = [32.5, 44.5, 99, 22, 76, 65, 66]
+sum = 0.0
+for spendings in daily_spendings:
+    sum+= spendings
+print("My total spendings are", sum)

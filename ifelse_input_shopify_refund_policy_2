@@ -1,0 +1,10 @@
+refund_question1 = int(input('How many days ago have you purchased the item?: '))
+
+refund_question2 = input('Have you used the item at all [y/n]?: ')
+        
+refund_question3 = input('Has the item broken down on its own [y/n]: ')
+
+if (refund_question3 == 'y') or (refund_question1 <= 10 and refund_question2 == 'n'):
+        print("You can get a refund.")
+else:
+        print("You cannot get a refund.")

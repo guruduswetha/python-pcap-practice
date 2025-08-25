@@ -1,0 +1,29 @@
+import json
+
+student_json = '''
+{
+"name" : "VISHNUPRIYA", 
+"grades" : [85, 90, 78, 92]  
+}
+'''
+
+student = json.loads(student_json)
+print(student["name"])
+
+grades = student["grades"]
+total = 0
+count = 0
+
+for grade in grades:
+    total += grade
+    count += 1
+
+    mean =  total/count
+
+print("Total grades count is", grade)
+print("Average is", mean)
+
+##while i < len(student1):
+ ##       sum += student1[i]
+   ##     i +=1
+##mean = sum/ len(student1)

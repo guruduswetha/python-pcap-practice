@@ -1,0 +1,16 @@
+def my_function(name, /): ##define this way if you are adding positional argument
+  print(name, "is my name")
+
+my_function("Swetha")
+
+def my_function( *, name): ##define this way if you are adding keyword argument
+  print("My name is", name)
+
+my_function(name = "Swetha")
+
+def my_function(y):
+    return 5 * y
+
+print(my_function(4))
+print(my_function(7))
+print(my_function(6))

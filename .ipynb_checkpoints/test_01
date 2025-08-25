@@ -1,0 +1,9 @@
+
+##get_txt = "I am reaching my \"Python\" goal"
+##print(get_txt.upper())
+
+class abcclass():
+    def __len__(self):
+        return 1
+myobj = abcclass()
+print(bool(myobj))

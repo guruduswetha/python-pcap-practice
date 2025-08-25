@@ -1,0 +1,7 @@
+fruits_original_list = ["apple", "banana", "kiwi", "orange", "grapes"]
+print("The Original List is:", fruits_original_list)
+
+for i in range(len(fruits_original_list)):   
+
+    if len(fruits_original_list[i]) > 5:
+        print("The Updated List is:", fruits_original_list[i])

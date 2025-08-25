@@ -1,0 +1,2 @@
+age = 'hokus' + 'pokus'
+print(age)

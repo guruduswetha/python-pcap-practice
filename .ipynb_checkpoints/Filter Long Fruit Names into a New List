@@ -1,0 +1,8 @@
+fruits_original_list = ["apple", "banana", "kiwi", "orange", "grapes"]
+print("The Original List is as follows", fruits_original_list)
+filteredlist_fruits = []
+for i in range(len(fruits_original_list)):
+    if len(fruits_original_list[i]) > 5:
+        filteredlist_fruits.append(fruits_original_list[i])
+
+print("The Filtered List is as follows", filteredlist_fruits)

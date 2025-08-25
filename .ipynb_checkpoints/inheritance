@@ -1,0 +1,11 @@
+class Parentclass:
+    def __init__(self, fname, lname):
+        self.firstname = fname
+        self.lastname = lname
+    def printingmanually (thisway):
+        print(thisway.firstname, thisway.lastname)
+
+class Childclass(Parentclass):
+    pass
+p1 = Childclass("THE","MAIN")
+p1.printingmanually()

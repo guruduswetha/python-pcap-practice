@@ -1,0 +1,7 @@
+import json
+Apparels = '{"T-shirt" :"Pink", "Dress": "Red", "Pants": "Black"}'
+print("This is JSON", type(Apparels))
+print(Apparels)
+app = json.loads(Apparels)
+print("Converted to Python", type(app))
+print(app)

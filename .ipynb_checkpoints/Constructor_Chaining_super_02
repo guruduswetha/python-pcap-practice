@@ -1,0 +1,15 @@
+class Shape():
+    def area(self):
+        print("Initializing SHAPE")
+class Rectangle(Shape):
+    def __init__ (self, length, width):
+        self.length = length
+        self.width = width
+    def area(self):
+        area = self.length * self.width
+        print("The area is", area)
+        
+r1 = Rectangle(7, 9)
+r1.area()
+
+        

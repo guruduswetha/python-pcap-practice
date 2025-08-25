@@ -1,0 +1,12 @@
+birthdayset = {"chocolate", "donuts", "juices", "cakes"}
+birthdayset.add("noodles")
+print(birthdayset)
+tropical = {"oranges", "pineapple"}
+birthdayset.update(tropical)
+print(birthdayset)
+thisset = {"apple", "banana", "cherry"}
+thisset.remove("chocolate") ##if the item to remove doesnt exist, remove() method will raise an error 
+print(thisset)
+mineset = {"apple", "banana", "cherry"}
+mineset.discard("chocolate") ##if the item to remove doesnt exist, discard() method will not raise an error 
+print(mineset)

@@ -1,0 +1,4 @@
+top_cities = ["New York", "Dallas", "San Francisco", "Houston", "Washington"]
+for city_index in range (len(top_cities)):
+    print("Current Index", city_index, "| Current City", top_cities[city_index])
+

@@ -1,0 +1,11 @@
+Travel_Agent = input('Do you want to travel? y/n: ')
+
+if Travel_Agent == 'y':
+    Travel_Agent2 = input('Do you live travelling to Asia? y/n: ')
+    if Travel_Agent2 == 'y':
+            print("Excellent! You win a ticket to Thailand!")
+    else:
+            print("Sorry to hear that!")
+else:
+        print("Sorry to hear that!")
+

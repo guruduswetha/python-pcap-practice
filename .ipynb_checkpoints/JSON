@@ -1,0 +1,6 @@
+import json
+x = '{"name" : "table", "colour": "brown", "status" : "new"}'
+
+y =json.loads(x)
+
+print(y["colour"])  
