@@ -1,0 +1,21 @@
+while True:
+    guess_game = int(input('When was Python 1.0 released?: '))
+    if guess_game == 1994:
+        print("Correct!")
+        break
+        
+    elif guess_game > 1994:
+        print("It was earlier than that!")
+    else:
+        print("It was later than that!")
+            
+while True:
+    answer = int(input('When was Python 1.0 released? '))
+    if answer > 1994:
+        print('It was earlier than that!')
+    elif answer < 1994:
+        print('It was later than that!')
+    else:
+        print('Correct!')
+        break
+            
