@@ -1,0 +1,7 @@
+box = ["Denny More", "Harry Potter", "Cheryl Meme", "Sidney Sheldon"]
+for books in box:
+        if "Hardly" in box:
+            print("Book found in box")
+            break
+else:
+        print("Book not found in box")
